@@ -1,0 +1,155 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+body
+{
+   margin: 0;
+   background: #e3e3e3;
+   font-family: 'Ravi Prakash', cursive;
+}
+
+body h3, h2
+{
+   font-family: 'Indie Flower', cursive;
+}
+
+#searchInput
+{
+   width: 200px;
+}
+
+.navbar-brand
+{
+   padding: 0 15px;
+}
+
+.navbar-brand img
+{
+   width: 100px;
+   height: 48px;
+}
+
+.navbar-form input
+{
+   height: 37.4px;
+}
+   
+.hero
+{
+   height: 300px;
+   margin-top: 50px;
+   margin-bottom: 0;
+}
+
+.csgo_logo
+{
+   margin-top: 0px;
+   margin-bottom: 0;
+   height: 300px;
+   width: 100%;
+}
+
+.threecol
+{
+   margin: 0 10px;
+}
+
+#awp, #ak47, #m4a4, #deagle, #tec9, #fiveseven
+{
+   height: 150px;
+   width: 100%;
+}
+
+.awp, .ak47, .m4a4, .deagle, .tec9, .fiveseven
+{
+   width: 30%;
+}
+
+.gametypes
+{
+   margin-top: 20px;
+}
+
+.row1 img, .row2 img, .row3 img
+{
+   height: 70px;
+   width: 100%;
+}
+
+footer
+{
+   margin-top: 0;
+   background: black;
+   color: white;
+}
+
+footer a
+{
+   color: white;
+}
+
+footer li
+{
+   text-decoration: none;
+   display: inline;
+   margin: 0 10px;
+}
+
+footer #first
+{
+   margin-bottom: 10px;
+}
+
+footer ul
+{
+   margin-left: 38%;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}
