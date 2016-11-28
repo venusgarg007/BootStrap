@@ -3,28 +3,11 @@
 My Custom CSS
 =============
 
-Author:  Brad Hussey
-Updated: August 2013
-Notes:	 Hand coded for Udemy.com
+Author:  Venus Garg
 
 */
 
 
-/* --------------------------------------
-   Layout
-   -------------------------------------- */
-
-
-
-/* --------------------------------------
-   Typography
-   -------------------------------------- */
-
-
-
-/* --------------------------------------
-   Navbar
-   -------------------------------------- */
 body
 {
    margin: 0;
@@ -156,29 +139,4 @@ footer #first
 footer ul
 {
    margin-left: 38%;
-}
-
-/* --------------------------------------
-   Global Styles
-   -------------------------------------- */
-
-
-
-/* --------------------------------------
-   Media Queries
-   -------------------------------------- */
-
-/* Portrait & landscape phone */
-@media (max-width: 480px) {
-	
-}
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
-	
-}
-
-/* Large desktop */
-@media (min-width: 1200px) {
-	
 }

@@ -5,7 +5,10 @@
 		
 		<!-- Website Title & Description for Search Engine purposes -->
 		<title></title>
-		<meta name="description" content="">
+
+		<meta charset="utf-8">
+		<meta name="author" content="Venus Garg">
+		<meta name="description" content="Bootstrap demo page on Counter-Strike:Global Offensive">
 		
 		<!-- Mobile viewport optimized -->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -147,8 +150,8 @@
 	</section> <!-- Three columns container ends -->
 
 	<section class="container"> <!-- container for two columns portion -->
-		<section class="row twocol">
-			<section class="col-6 description">
+		<section class="row twocol"> <!-- grid system -->
+			<section class="col-6 description"> <!-- column 1 -->
 				<p>
 					<h3>CS:GO</h3>
 					Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game developed by Hidden Path Entertainment and Valve Corporation. It is the fourth game in the main Counter-Strike franchise. Counter-Strike: Global Offensive was released for Microsoft Windows, OS X, Xbox 360, and PlayStation 3 in August 2012, with the Linux version being released in September 2014. It features classic content, such as revamped versions of classic maps, as well as brand new maps, characters and game modes.
@@ -157,48 +160,35 @@
 				<p><b>
 					On the right are the different types of match options that you can choose to play.
 				</b></p>
-			</section>
-			<section class="col-6 gametypes">
-				<section class="row1">
+			</section> <!-- column 1 end -->
+			<section class="col-6 gametypes"> <!-- column 2 -->
+				<section class="row1"> <!-- row 1 -->
 					<a href="#"><img src="img/competitive.jpg" alt="competitive"></a>
-				</section>
-				<section class="row2">
+				</section> <!-- end row 1 -->
+				<section class="row2"> <!-- row 2 -->
 					<a href="#"><img src="img/casual.jpg" alt="casual"></a>
-				</section>
-				<section class="row3">
+				</section> <!-- end row 2 -->
+				<section class="row3"> <!-- row 3 -->
 					<a href="#"><img src="img/arms-race.jpg" alt="arms-race"></a>
-				</section>
-			</section>
-		</section>
-	</section>
+				</section> <!-- end row 3 -->
+			</section> <!-- column 2 end -->
+		</section> <!-- end grid -->
+	</section> <!-- two column container ends -->
 
-	<footer>
+	<footer> <!-- footer starts -->
 		<ul>
 			<li id="first">
 				Contact us:
 			</li>
 			<li>
-				<a href="https://www.facebook.com/CounterStrikeGlobalOffensiveIndia/" target="_blank"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
+				<a href="https://www.facebook.com/CounterStrikeGlobalOffensiveIndia/" target="_blank"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a> <!-- using font awesome -->
 			</li>
 			<li>
-				<a href="https://twitter.com/csgo_dev" target="_blank"><i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a>
+				<a href="https://twitter.com/csgo_dev" target="_blank">
+				<i class="fa fa-twitter fa-3x" aria-hidden="true"></i></a> <!-- using font awesome -->
 			</li>
 		</ul>
 	</footer> <!-- footer ends here -->
-
-	<!-- All Javascript at the bottom of the page for faster page loading -->
-		
-	<!-- First try for the online version of jQuery-->
-	<script src="http://code.jquery.com/jquery.js"></script>
-	
-	<!-- If no online access, fallback to our hardcoded version of jQuery -->
-	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
-	
-	<!-- Bootstrap JS -->
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	
-	<!-- Custom JS -->
-	<script src="includes/js/script.js"></script>
 	
 	</body>
 </html>
