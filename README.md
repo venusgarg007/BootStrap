@@ -1,1 +1,1 @@
-BootStrap demo page on Counter Strike:Global Offensive
+BootStrap based demo page on Counter Strike:Global Offensive
