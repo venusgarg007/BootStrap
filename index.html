@@ -25,16 +25,16 @@
 	</head>
 	<body>
 	
-	<div class="container" id="main">
-		<div class="navbar navbar-fixed-top">
-			<div class="container"> <!-- here the div is used because we want our navbar menu to be lined up with site except for going full width -->
+	<section class="container" id="main">
+		<article class="navbar navbar-fixed-top">
+			<article class="container"> <!-- here the article is used because we want our navbar menu to be lined up with site except for going full width -->
 				<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
 				<a class="navbar-brand" href="/"><img src="img/esports-logo.jpg" alt="logo"></a>
-				<div class="nav-collapse collapse navbar-responsive-collapse">
+				<article class="nav-collapse collapse navbar-responsive-collapse">
 					<ul class="nav navbar-nav">
 						<li class="active">
 							<a href="#">Home</a>
@@ -50,7 +50,6 @@
 								<li><a href="#">Inventory</a></li>
 								<li><a href="#">Complete Steam Support</a></li>
 							</ul> <!-- end dropdown-menu -->
-
 						</li>
 					</ul> <!-- end nav navbar-nav -->
 
@@ -70,73 +69,108 @@
 								<li class="divider"></li>
 								<li><a href="#"><span class="glyphicon glyphicon-off"></span> Sign Out</a></li>
 							</ul>
-
 						</li>
 					</ul> <!-- end nav pull-right -->
-				</div> <!-- end nav-collapse -->
-			</div> <!-- end container -->
-		</div> <!-- end container -->
-	</div>	<!-- end navbar -->
+				</article> <!-- end nav-collapse -->
+			</article> <!-- end container -->
+		</article> <!-- end navbar -->
+	</section>	<!-- end container-->
 
-	<div class="hero">
+	<section class="carousel slide" id="myCarousel">
+
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+			<li data-slide-to="1" data-target="#myCarousel"></li>
+			<li data-slide-to="2" data-target="#myCarousel"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<article class="carousel-inner">
+			<article class="item active" id="slide1">
+				<img src="img/slide1.jpg" alt="" id="slide1">
+				<article class="carousel-caption">
+					<h4>All maps</h4>
+				</article><!-- end carousel-caption-->
+			</article><!-- end item -->
+			
+			<article class="item" id="slide2">
+				<img src="img/slide2.jpg" alt="" id="slide2">
+				<article class="carousel-caption">
+					<h4>CS:GO</h4>
+				</article><!-- end carousel-caption-->
+			</article><!-- end item -->
+			
+			<article class="item" id="slide3">
+				<img src="img/slide3.jpg" alt="" id="slide3">
+				<article class="carousel-caption">
+					<h4>Dust 2</h4>
+				</article><!-- end carousel-caption-->
+			</article><!-- end item -->
+		</article><!-- carousel-inner -->
+		
+		<!-- Controls -->
+		<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+		<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+	</section><!-- end myCarousel -->
+
+	<section class="hero">
 		<img class="csgo_logo" src="img/csgo-logo.png" alt="csgo-logo">
-	</div>
+	</section>
 
-	<div class="jumbotron">
+	<section class="jumbotron"> <!-- Jumbotron section -->
 		<p>
 			This is one of the most popular first person shooter game. There are different modes of playing. In standard competitive matches there are 2 teams having 5 players each. Whichever team executes all the enemies wins the round. If bomb is planted and is exploded the Terrorists win else if the bomb is diffused, Counter-Terrorists win.
 		</p>
-	</div>
+	</section> <!-- end jumbotron -->
 
-	<div class="container threecolcontainer">
-	<div class="row threecol">
-		<h2>Popular Weapons:</h2>
-		<div class="col-4 awp">
-			<h3>AWP</h3>
-			<p>The sniper rifle is known for its one bullet killing power, really powerful but quite difficult to handle.</p>
-			<img src="img/awp.jpg" alt="awp" id="awp">
-		</div>
-		<div class="col-4 ak47">
-			<h3>AK-47</h3>
-			<p>A powerful assault rifle for T's but it suffers from high recoil. Great marksman use it for its accurate first shot.</p>
-			<img src="img/ak47.jpg" alt="ak47" id="ak47">
-		</div>
-		<div class="col-4 m4a4">
-			<h3>M4A4</h3>
-			<p>The AK-47 counterpart for CT's is better in recoil control but it deals a little lesser damage.</p>
-			<img src="img/m4a4.png" alt="m4a4" id="m4a4">
-		</div>
-		
-	</div>
-	</div>
+	<section class="container threecolcontainer"> <!-- Three columns container -->
+		<article class="row threecol"> <!-- bootstrap grid system -->
+			<h2>Popular Weapons:</h2>
+			<article class="col-4 awp"> <!-- column 1 -->
+				<h3>AWP</h3>
+				<p>The sniper rifle is known for its one bullet killing power, really powerful but quite difficult to handle.</p>
+				<img src="img/awp.jpg" alt="awp" id="awp">
+			</article> <!-- end column 1 -->
+			<article class="col-4 ak47"> <!-- column 2 -->
+				<h3>AK-47</h3>
+				<p>A powerful assault rifle for T's but it suffers from high recoil. Great marksman use it for its accurate first shot.</p>
+				<img src="img/ak47.jpg" alt="ak47" id="ak47">
+			</article> <!-- end column 2 -->
+			<article class="col-4 m4a4"> <!-- column 3 -->
+				<h3>M4A4</h3>
+				<p>The AK-47 counterpart for CT's is better in recoil control but it deals a little lesser damage.</p>
+				<img src="img/m4a4.png" alt="m4a4" id="m4a4">
+			</article> <!-- end column 3 -->
+		</article> <!-- grid ends here -->
+	</section> <!-- Three columns container ends -->
 
-	<div class="container">
-	<section class="row twocol">
-		<section class="col-6 description">
-			<p>
-				<h3>CS:GO</h3>
-				Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game developed by Hidden Path Entertainment and Valve Corporation. It is the fourth game in the main Counter-Strike franchise. Counter-Strike: Global Offensive was released for Microsoft Windows, OS X, Xbox 360, and PlayStation 3 in August 2012, with the Linux version being released in September 2014. It features classic content, such as revamped versions of classic maps, as well as brand new maps, characters and game modes.
-			</p>
+	<section class="container"> <!-- container for two columns portion -->
+		<section class="row twocol">
+			<section class="col-6 description">
+				<p>
+					<h3>CS:GO</h3>
+					Counter-Strike: Global Offensive (CS:GO) is a multiplayer first-person shooter video game developed by Hidden Path Entertainment and Valve Corporation. It is the fourth game in the main Counter-Strike franchise. Counter-Strike: Global Offensive was released for Microsoft Windows, OS X, Xbox 360, and PlayStation 3 in August 2012, with the Linux version being released in September 2014. It features classic content, such as revamped versions of classic maps, as well as brand new maps, characters and game modes.
+				</p>
 
-			<p><b>
-				On the right are the different types of match options that you can choose to play.
-			</b></p>
-		</section>
-		<section class="col-6 gametypes">
-			<section class="row1">
-				<a href="#"><img src="img/competitive.jpg" alt="competitive"></a>
+				<p><b>
+					On the right are the different types of match options that you can choose to play.
+				</b></p>
 			</section>
-			<section class="row2">
-				<a href="#"><img src="img/casual.jpg" alt="casual"></a>
-			</section>
-			<section class="row3">
-				<a href="#"><img src="img/arms-race.jpg" alt="arms-race"></a>
+			<section class="col-6 gametypes">
+				<section class="row1">
+					<a href="#"><img src="img/competitive.jpg" alt="competitive"></a>
+				</section>
+				<section class="row2">
+					<a href="#"><img src="img/casual.jpg" alt="casual"></a>
+				</section>
+				<section class="row3">
+					<a href="#"><img src="img/arms-race.jpg" alt="arms-race"></a>
+				</section>
 			</section>
 		</section>
 	</section>
-	</div>
-
-	</div> <!-- end container -->
 
 	<footer>
 		<ul>

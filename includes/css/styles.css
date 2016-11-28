@@ -57,11 +57,40 @@ body h3, h2
 {
    height: 37.4px;
 }
+
+#myCarousel {
+   margin-top: 60px;
+}
+
+.carousel-caption {
+   font-size: 24px;
+}
+
+.carousel-caption h4 {
+   font-size: 32px;
+}
+
+#myCarousel .item { height: 400px; }
+
+#slide1 {
+   height: 100%;
+   width: 100%;
+}
+
+#slide2 {
+   height: 100%;
+   width: 100%;
+}
+
+#slide3 {
+   height: 100%;
+   width: 100%;
+}
    
 .hero
 {
    height: 300px;
-   margin-top: 50px;
+   margin-top: 2px;
    margin-bottom: 0;
 }
 
